@@ -1,0 +1,17 @@
+Options +SymLinksIfOwnerMatch
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^moviexref.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.moviexref.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.moviecrossreference.com$ [OR]
+RewriteCond %{HTTP_HOST} ^8u12jhfjha83.kaleidoscopegames.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.8u12jhfjha83.kaleidoscopegames.com$ [OR]
+RewriteCond %{HTTP_HOST} ^8j23jr3hasd0.kaleidoscopegames.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.8j23jr3hasd0.kaleidoscopegames.com$
+RewriteRule ^(.*)$       http://moviecrossreference.com/$1 [R=301]
+
+RewriteRule ^$ index.html [L,QSA]
+#RewriteRule ^$ index.php [L,QSA]
+RewriteRule ^search$ search.php [L,QSA]
+RewriteRule ^([\w\d]+)$ index.php?short_code=$1 [L]

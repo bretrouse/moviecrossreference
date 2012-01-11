@@ -1,0 +1,202 @@
+
+body {
+  /* 33b2e5 */
+	background:#6ecff6 url('/images/MCR.jpg') no-repeat top center;
+	font-family:Georgia, serif;
+	color:#27b;
+}
+a,
+a:hover,
+a:visited {
+	color:#27b;
+}
+a:hover {
+	font-size:1.1em;
+}
+.italic {
+	font-style:italic;
+}
+#content {
+	text-align:center;
+}
+#title {
+	background:width:720px;
+	height:250px;
+	text-indent:-9999px;
+	margin:0 auto;
+}
+#what-box {
+	position:relative;
+	width:400px;
+	height:175px;
+	display:block;
+	margin:0 auto;
+	text-indent:0;
+}
+#home {
+  display:block;
+  height:175px;
+  width:400px;
+}
+#what {
+	position:absolute;
+  z-index:10;
+	bottom:0;
+	right:0;
+	display:block;
+	color:#fff;
+}
+#what-text {
+	font-size:1.1em;
+	color:#fff;
+	background:#22b2e5;
+	padding:10px;
+	margin-bottom:30px;
+	text-align:left;
+	line-height:1.2em;
+	border-radius:5px 5px 5px 5px;
+	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	box-shadow:inset 0 0 5px #37a;
+	-moz-box-shadow:inset 0 0 5px #37a;
+	-webkit-box-shadow:inset 0 0 5px #37a;
+}
+#close-what {
+	background:#fff;
+	color:#27b;
+	display:block;
+	clear:both;
+	float:right;
+	width:20px;
+	height:20px;
+	text-align:center;
+	line-height:1em;
+	border-radius:10px 10px 10px 10px;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+}
+#close-what:hover{
+	font-size:1em;
+}
+.search-box {
+	padding:5px;
+	width:350px;
+	font-size:1.2em;
+	border:1px #27b solid;
+	color:#27b;
+}
+.search-box:focus {
+	box-shadow:inset 0 0 5px #158;
+	-moz-box-shadow:inset 0 0 5px #158;
+	-webkit-box-shadow:inset 0 0 5px #158;
+}
+#x {
+	font-size:1.6em;
+	margin:0 10px;
+}
+#search {
+	border-radius:5px 5px 5px 5px;
+	box-shadow:0 0 15px #37a;
+	-moz-border-radius:5px 5px 5px 5px;
+	-moz-box-shadow:0 0 15px #37a;
+	-webkit-border-radius:5px 5px 5px 5px;
+	-webkit-box-shadow:0 0 15px #37a;
+	background:none repeat scroll 0 0 #fff;
+	margin:0 auto;
+	padding:30px;
+	width:800px;
+}
+#submit {
+	border-radius:5px 5px 5px 5px;
+	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	box-shadow:inset 0 0 5px #158;
+	-moz-box-shadow:inset 0 0 5px #158;
+	-webkit-box-shadow:inset 0 0 5px #158;
+	background:#33b2e5;
+	padding:5px 10px;
+	margin-top:25px;
+	border:0;
+	color:#fff;
+	font-size:1.6em;
+	background-image: -moz-linear-gradient(top, #7cf, #33b2e5);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #7cf),color-stop(1, #33b2e5));
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#77ccff', EndColorStr='#33b2e5');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#77ccff', EndColorStr='#33b2e5')";
+}
+#submit:hover {
+	cursor:pointer;
+	background-image:none;
+}
+#correlation {
+	display:block;
+	margin-bottom:25px;
+}
+.header {
+	font-size:1.5em;
+  height:2em;
+	display:inline-block;
+	margin-bottom:10px;
+}
+.match {
+	font-size:1.1em;
+	line-height:1.1em;
+	padding:10px 0;
+	display:inline-block;
+}
+.header .left,
+.header .right {
+	height:24px;
+}
+.left,
+.right,
+.middle {
+	display:inline-block;
+	float:left;
+	width:220px;
+}
+.left {
+	text-align:right;
+}
+.right {
+	text-align:left;
+}
+.middle {
+	width:300px;
+	padding:0 30px;
+}
+#like-this {
+	margin-top:30px;
+}
+#social {
+	margin-top:30px;
+}
+#tweet-this,
+#share-this,
+#permalink {
+	margin-left:5px;
+	vertical-align:top;
+}
+#fb_share {
+  font-size:1em;
+}
+#permalink-link {
+	border-radius:5px 5px 5px 5px;
+	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	box-shadow:inset 0 0 5px #158;
+	-moz-box-shadow:inset 0 0 5px #158;
+	-webkit-box-shadow:inset 0 0 5px #158;
+	background:#33b2e5;
+	border:0;
+	color:#fff;
+	padding:3px 5px;
+	font-size:0.7em;
+	background-image: -moz-linear-gradient(top, #77ccff, #33b2e5);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #77ccff),color-stop(1, #33b2e5));
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#77ccff', EndColorStr='#33b2e5');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#77ccff', EndColorStr='#33b2e5')";
+}
+#permalink-link:hover {
+	background-image:none;
+}
